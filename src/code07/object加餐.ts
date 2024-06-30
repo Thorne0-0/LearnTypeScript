@@ -1,3 +1,4 @@
+export{}
 // object, Object, {}
 
 // Object  包含所有类型
@@ -10,9 +11,9 @@ let a5:Object = ():number=>{
 }
 
 // object 常用于泛型约束 不能用于原始类型
-let b1:object = 1 //报错 原始类型
-let b2:object = '1' //报错 原始类型
-let b3:object = false //报错 原始类型
+// let b1:object = 1 //报错 原始类型
+// let b2:object = '1' //报错 原始类型
+// let b3:object = false //报错 原始类型
 let b4:object = {} //正确
 let b5:object = [] //正确
 let b6:object = ():number =>{
@@ -33,5 +34,5 @@ let c5:Object = ():number=>{
 // ！！！补充：
 // 对象类型无法修改
 let c6:object = {name:1}
-c6.name = 2 //报错
-c6.age = 2 //报错
+// c6.name = 2 //报错
+// c6.age = 2 //报错
